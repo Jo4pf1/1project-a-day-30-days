@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    margin: 1px dotted red;
+    padding: 1px solid blue;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.main p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.foot p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+button {
+    border: 1px solid red;
+    background-color: aliceblue;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-shadow: 1px 5px 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid aliceblue;
+    color: red;
+    background-color: black;
+    box-shadow: 1px 5px red;
+}
+
+button:active {
+    color: black;
+    background-color: red;
+    border: 1px solid blue;
+    box-shadow: 1px 5px;
+}
